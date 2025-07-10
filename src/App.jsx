@@ -1,13 +1,11 @@
 import './App.css'
-import UserCard from './components/UserCard'
+import Counter from './components/Counter'
 
 function App() {
 
   return (
-    <div className='container' >
-      <UserCard name="a" style={{"border-radius":"10px"}}/>
-      <UserCard name="b"/>
-      <UserCard name="c"/>
+    <div>
+      <Counter />
     </div>
   )
 }
