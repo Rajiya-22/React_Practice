@@ -8,6 +8,8 @@ const Card = (props) => {
             CLICK ME!!
       </button>
       <h4>Count is {props.count}</h4>
+      Enter the name:<input type='text' onChange={(e)=>{props.setName(e.target.value)}}/>
+      <p>Name is: {props.name}</p>    
     </div>
   )
 }
